@@ -7,7 +7,7 @@ st.set_page_config(page_title="FIFA Dashboard",layout="wide")
 
 @st.cache_data
 def load():
-    return pd.read_csv("data/fifa_players.csv")
+    return pd.read_csv("fifa_players.csv")
 
 df=load()
 
