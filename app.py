@@ -114,7 +114,7 @@ st.markdown("---")
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv("data/fifa_players.csv")
+   df = pd.read_csv("fifa_players.csv")
 
     return df
 
